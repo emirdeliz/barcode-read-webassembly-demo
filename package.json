@@ -1,0 +1,15 @@
+{
+	"name": "barcode-read-webassembly-demo",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "emirdeliz - <emirdeliz@gmail.com>",
+	"description": "Simple barcode reader using webassembly (zbar.wasm)",
+	"license": "MIT",
+	"dependencies": {
+		"canvas": "^2.9.1",
+		"zbar.wasm": "^2.1.1"
+	},
+	"scripts": {
+		"deno-run": "deno run --allow-read --watch src/index.ts"
+	}
+}
